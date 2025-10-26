@@ -1,0 +1,61 @@
+/* colors */
+:root {
+    /* background colors */
+    --bg-color-light: #FFFAF0;
+    --bg-color-medium: #D6C37F;
+    --bg-color-dark: #506283;
+    --bg-color-night: #262858;
+
+    /*text colors*/
+    --text-color-light: #FFFAF0;
+    --text-color-medium: #D6C37F;
+    --text-color-dark: #506283;
+    --text-color-night: #262858;
+
+    /*button colors*/
+    --btn-color-default: #582627;
+    --btn-color-active: #802A2C;
+
+    /*link colors*/
+    --link-color-default: white;
+    --link-color-active: yellow;
+}
+
+/* font-size, font-family */
+:root {
+    --font-size-h1: clamp(1.6rem, 3vw, 2.5rem);
+    --font-size-h2: clamp(1.3rem, 2.5vw, 1.9rem);
+}
+
+/* padding + margin */
+:root{
+    --padding-nav: clamp(1em, 1vw, 3vw) clamp(2em, 2vw, 4vw);
+    --padding-s: clamp(1rem, 2vw, 1.5rem);
+    --padding-m: clamp(1rem, 2vw, 2rem);
+    --padding-btn: clamp(5px, 4vw, 25px) clamp(5px, 10vw, 200px);
+    /* second option: --padding-nav: min(0.6rem, 30%); */
+
+    --margin-s: 2em;
+}
+
+/* width + height */
+:root{
+    --main-width: 1450px;
+}
+
+/*gap, borders, border radius*/
+:root{
+    /*border radius*/
+    --bd-circle: 100%;
+    --bd-round-corners: 15px;
+    --bd-soft-corners: 5px;
+
+    /*borders*/
+    --border-thick-white: 10px solid white;
+
+    /*gap*/
+    --gap-xs: 6px;
+    --gap-s: 2rem;
+    --gap-m: 4rem;
+    --gap-l: 6rem;
+}
